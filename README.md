@@ -12,11 +12,11 @@ shared RelayControl backend actually stores.
 
 | Project | Repository | Stack | Responsibility |
 | --- | --- | --- | --- |
-| RelayControl | [dotnet_SonicRelay](https://github.com/vitorhugo-dotnet/dotnet_SonicRelay) | .NET 10, ASP.NET Core, PostgreSQL, Redis | Shared device identity, pairing, sessions, authorization, join codes and signaling control plane. |
-| SonicRelay Mobile Viewer | [flutter_mobile-web_SonicRelay](https://github.com/vitorhugo-dotnet/flutter_mobile-web_SonicRelay) | Flutter, `flutter_webrtc` | Join SonicRelay sessions and play WebRTC audio. |
-| SonicRelay Desktop Publisher | [desktop_dotnet_SonicRelay](https://github.com/vitorhugo-dotnet/desktop_dotnet_SonicRelay) | C#/.NET, Avalonia, system-audio capture, WebRTC | Capture system audio and publish it to viewers. |
-| FrameRelay | [dotnet_SonicDesktopRelay](https://github.com/vitorhugo-dotnet/dotnet_SonicDesktopRelay) | C#/.NET, Avalonia, Windows Graphics Capture, FFmpeg, WebRTC | Separate screen-sharing product powered by RelayControl. |
-| SonicRelay Landing Page | [react_landpage_SonicRelay](https://github.com/vitorhugo-dotnet/react_landpage_SonicRelay) | React, TypeScript, Vite, Tailwind CSS | Public marketing site for SonicRelay. |
+| RelayControl | [dotnet_SonicRelay](https://github.com/hugoalves-dev/dotnet_RelayControl) | .NET 10, ASP.NET Core, PostgreSQL, Redis | Shared device identity, pairing, sessions, authorization, join codes and signaling control plane. |
+| SonicRelay Mobile Viewer | [flutter_mobile-web_SonicRelay](https://github.com/hugoalves-dev/flutter_mobile-web_SonicRelay) | Flutter, `flutter_webrtc` | Join SonicRelay sessions and play WebRTC audio. |
+| SonicRelay Desktop Publisher | [desktop_dotnet_SonicRelay](https://github.com/hugoalves-dev/desktop_dotnet_SonicRelay) | C#/.NET, Avalonia, system-audio capture, WebRTC | Capture system audio and publish it to viewers. |
+| FrameRelay | [dotnet_SonicDesktopRelay](https://github.com/hugoalves-dev/dotnet_FrameRelay) | C#/.NET, Avalonia, Windows Graphics Capture, FFmpeg, WebRTC | Separate screen-sharing product powered by RelayControl. |
+| SonicRelay Landing Page | [react_landpage_SonicRelay](https://github.com/hugoalves-dev/react_landpage_SonicRelay) | React, TypeScript, Vite, Tailwind CSS | Public marketing site for SonicRelay. |
 
 ## Quick start
 

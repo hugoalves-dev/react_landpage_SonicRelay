@@ -1,6 +1,6 @@
 import type { NavLink } from './types.ts'
 
-export const REPOSITORY_OWNER = 'vitorhugo-dotnet'
+export const REPOSITORY_OWNER = 'hugoalves-dev'
 
 const repositoryUrl = (name: string) => `https://github.com/${REPOSITORY_OWNER}/${name}`
 
